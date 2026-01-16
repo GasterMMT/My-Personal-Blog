@@ -16,24 +16,14 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	XiaoMi: [
 		{
-			name: "OnePlus 13T",
-			image: "/images/device/oneplus13t.png",
-			specs: "Gray / 16G + 1TB",
+			name: "XiaoMi 14",
+			image: "/images/device/XiaoMi 14.png",
+			specs: "Black / 16G + 1TB",
 			description:
-				"Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
-		},
-	],
-	Router: [
-		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
-			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"Flagship performance, Leica imaging, 90W HyperCharge.",
+			link: "https://www.mi.com/xiaomi-14",
 		},
 	],
 };
